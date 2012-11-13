@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "cache_the_ripper"
   gem.require_paths = ["lib"]
   gem.version       = CacheTheRipper::VERSION
+
+  gem.add_dependency('sorcerer')
 end

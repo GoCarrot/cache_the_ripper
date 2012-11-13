@@ -1,5 +1,3 @@
 require "cache_the_ripper/version"
 
-module CacheTheRipper
-  # Your code goes here...
-end
+require "cache_the_ripper/engine" if defined?(Rails)
